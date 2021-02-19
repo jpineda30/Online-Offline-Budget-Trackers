@@ -1,25 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+html{
+  background-image: url(./img/grey.jpg);
+  background-repeat: no-repeat;
+  
+  background-attachment: fixed;
+  padding: 0;
+  margin: auto;
+  height: 100vh;
+  overflow: hidden;
+ 
+}
+
+
 body {
   font-size: 120%;
   font-family: Arial;
+  /*background: linear-gradient(to top,rgba(255, 255, 255, 0.294),rgba(255, 255, 255, 0.363),rgba(255, 255, 255, 0.137));*/
+  background-image: linear-gradient(to top,rgba(0, 150, 187, 0.95),rgba(3, 125, 195, 0.9),rgba(0, 100, 182, 0.99));
+  
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  overflow: auto;
+  
+  
 }
 
-button, input {
+button{
   font-size: 100%;
-  font-family: Arial;
+  font-family: 'Bebas Neue', cursive;
+  
+  border-style: none;
+  background-color: rgba(255, 255, 255, 0.63);
+  height: 30px;
+  transition: .3s;
+}
+button:focus, button:target, input:focus{
+  
+  border-color: honeydew;
+  border: none;
+  outline:none;
+ 
+  
+}
+button:active, button:target{
+  
+  border-color: rgba(14, 14, 14, 0.322);
+  border: none;
+  outline:none;
+ 
+  
+}
+button:hover{
+  
+  
+  border-style: none;
+  background-color: rgba(255, 255, 255, 0.952);
+  
+}
+
+input {
+  font-size: 100%;
+  font-family: 'Bebas Neue', cursive;
+  
+  border-style: none;
+  background-color: rgba(255, 255, 255, 0.335);
+  height: 30px;
+  color: black;
 }
 
 table {
   width: 100%;
+  font-family: 'Bebas Neue', cursive;
+  background-color: rgba(0, 0, 0, 0.192);
 }
 
 td, th {
-  border: 1px solid #dddddd;
+ /* border: 1px solid #dddddd2f;*/
   text-align: left;
-  padding: 8px;
+  padding: 6px;
+  font-family: 'Bebas Neue', cursive;
 }
+th {
+ background-color: rgb(0, 0, 0);
+ color: white;
+ }
 
 tr:nth-child(even) {
-  background-color: #dddddd;
+  background-color: #ddddddc5;
 }
 
 .error {
@@ -48,4 +117,15 @@ tr:nth-child(even) {
   overflow: auto;
   width: 90%;
   margin: 0 auto;
+}
+
+
+.money, div, span{
+  color: rgba(28, 29, 39, 0.822);
+  font-family: 'Bebas Neue', cursive;
+}
+
+canvas{
+  margin-top: 15px;
+  background-color: rgba(255, 255, 255, 0.726);
 }
