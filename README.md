@@ -1,8 +1,9 @@
 # Online/Offline Budget Trackers 
 
+<img src="public\img\preview.bmp"/>
+
 ## Menu
 
-![preview](public\img\preview.bmp)
 
 [1-Proyect Description](##Proyect-Description)
 
@@ -16,6 +17,8 @@
 An application that allows the user to add expenses and deposits to their budget with or without a connection. 
 
 [Deployed Application](https://pepe30-budget-trackers.herokuapp.com)
+
+
 
 
 ## Proyect Usage
